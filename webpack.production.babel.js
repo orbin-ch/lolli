@@ -9,7 +9,8 @@ export default {
     "./src/color.css"
   ],
   output: {
-    path: "./dist"
+    path: "./dist",
+    filename: "lolli.css",
   },
   module: {
     preLoaders: [{
